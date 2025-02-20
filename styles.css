@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F0FFFF;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the h1 header */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #AFEEEE;         
+    color: black;                   
+    padding: 20px;                  
+    text-align: center;             
+    margin: 0;                      
+}
+
+/* The content div will center everything except the h1 */
+.content {
+    display: flex;
+    justify-content: center;  
+    align-items: center;                
+    flex-direction: column;          
+}
+
+/* Flexbox container to align image and text side by side */
+.container {
+    display: flex;            
+    align-items: center;      
+    margin: 20px;             
+}
+
+/* Styling for the image */
+.image {
+    margin-right: 20px;       
+}
+
+.text h2 {
+    margin-top: 0;   
+}         
+
+/* Paragraph Styling */
+p {
+    margin: 5px 0;            
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;      /* Rounded corners for the image */
+    max-width: 100%;          
+}
+
+/* Flex container to align the spans side by side */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    white-space: normal;
+    width: 100%;
+}
+
+/* Style for each project item */
+.project-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;             
+    width: 30%;                     
+}
+
+/* Style for individual project items */
+.project-item h2 {
+    margin: 0; 
+    padding: 10px 0;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/* Style for the separator line */
+.separator {
+    width: 1px;                
+    height: 900px;              
+    background-color: black;  
+    margin: 0 20px;           
+}
+
+/* Style for the footer */
+footer {
+    text-align: right; 
+    padding: 10px; 
+    font-size: 14px; 
+    background-color: #AFEEEE; 
+}
